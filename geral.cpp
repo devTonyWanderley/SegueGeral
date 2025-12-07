@@ -6,9 +6,16 @@ Geral::Geral(QWidget *parent)
     , ui(new Ui::Geral)
 {
     ui->setupUi(this);
+    cr = new ConfigRead;
 }
 
 Geral::~Geral()
 {
     delete ui;
 }
+
+void Geral::on_pbG1_clicked()
+{
+    cr->show();
+}
+

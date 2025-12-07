@@ -11,6 +11,7 @@ qt_add_executable(SegueGeral
     geral.cpp
     geral.h
     geral.ui
+    configread.h configread.cpp configread.ui
 )
 
 qt_add_translations(
